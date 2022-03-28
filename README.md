@@ -2,7 +2,7 @@
 Used for medical image segmentation
 Parts of codes are borrowed from [nn-UNet](https://github.com/MIC-DKFZ/nnUNet).
 
-![UMRFormer-Net Architecture](img/UMRFormer-Net.png?raw=true)
+![UMRFormer-Net Architecture](/UMRFormer/img/UMRFormer-Net.png?raw=true)
 
 ## Installation
 #### 1、System requirements
