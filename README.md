@@ -11,6 +11,16 @@ This software was originally designed and run on a system running Ubuntu 18.04, 
 
 This software leverages graphical processing units (GPUs) to accelerate neural network training and evaluation; systems lacking a suitable GPU will likely take an extremely long time to train or evaluate models. The software was tested with the NVIDIA RTX 3090 GPU, though we anticipate that other GPUs will also work, provided that the unit offers sufficient memory. 
 
+#### 2、Installation guide
+We recommend installation of the required packages using the Conda package manager, available through the Anaconda Python distribution. Anaconda is available free of charge for non-commercial use through [Anaconda Inc](https://www.anaconda.com/products/individual). After installing Anaconda and cloning this repository, For use as integrative framework：
+```
+git clone https://github.com/supersunshinefk/UMRFormer-Net.git
+cd UMRFormer-Net
+conda env create -f environment.yml
+source activate UMRFormer-Net
+pip install -e .
+```
+
 ## Training
 #### 1、Datasets
 Datasets can be downloaded at the following links:
