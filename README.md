@@ -1,7 +1,7 @@
 # UMRFormer-Net: 3D Pancreas and Tumor Segmentation Method Based on A Volumetric Transformer
 We proposed a novel transformer block that used a combination of MHSA and RDCB as the basic unit to deep integrate both long-range and local spatial information. The MRFormer block was embedded between the encoder and decoder in UNet at the last two layers which was named as UMRFormer-Net. And we applied it in pancreas and pancreas tumor segmentation to help capture more effective feature context information. 
 
-Parts of codes are borrowed from nn-UNet.
+Parts of codes are borrowed from nnunet.
 
 ![UMRFormer-Net Architecture](/UMRFormer-Net.png)
 
